@@ -1,3 +1,9 @@
 name 'base'
 description 'Basic system setup role'
-run_list [ 'recipe[apt]', 'recipe[openssh]', 'recipe[vim]', 'recipe[base]' ]
+run_list %w[
+             recipe[apt]
+             recipe[ntp]
+             recipe[openssh]
+             recipe[vim]
+             recipe[base]
+           ]
