@@ -10,5 +10,3 @@
 package 'openssh' do
   action :upgrade
 end
-
-gem_package 'rake'
