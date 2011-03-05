@@ -1,5 +1,5 @@
 = DESCRIPTION:
-Base system setup
+Provides system setups for developer workstations
 
 = REQUIREMENTS:
 

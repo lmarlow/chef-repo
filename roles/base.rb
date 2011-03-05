@@ -5,5 +5,5 @@ run_list %w[
              recipe[ntp]
              recipe[openssh]
              recipe[vim]
-             recipe[base]
+             recipe[system]
            ]
